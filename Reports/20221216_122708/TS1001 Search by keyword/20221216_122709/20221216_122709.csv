@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+TS1001 Search by keyword,Chrome 108.0.0.0,,,2022-12-16 12:27:21,2022-12-16 12:29:25,2m - 4.810s,FAILED
+,,,,,,,
+Test Cases/TC1101 Search by keyword,Chrome 108.0.0.0,,,2022-12-16 12:27:44,2022-12-16 12:29:11,1m - 27.234s,FAILED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-16 12:27:44,2022-12-16 12:27:46,1.705s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2022-12-16 12:27:46,2022-12-16 12:27:47,0.925s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""NPRU"")",Chrome 108.0.0.0,,,2022-12-16 12:27:47,2022-12-16 12:27:47,0.642s,PASSED
+"click(findTestObject(""Page_Google/input__btnK""))",Chrome 108.0.0.0,,,2022-12-16 12:27:47,2022-12-16 12:27:50,2.408s,PASSED
+"verifyTextPresent(""มหาลัยราชภัฎนครปฐม"", false)",Chrome 108.0.0.0,,,2022-12-16 12:27:50,2022-12-16 12:29:11,1m - 21.545s,FAILED
+,,,,,,,
+Test Cases/TC1102 Search by keyword,Chrome 108.0.0.0,,,2022-12-16 12:29:11,2022-12-16 12:29:19,7.475s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-16 12:29:11,2022-12-16 12:29:13,1.639s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2022-12-16 12:29:13,2022-12-16 12:29:14,0.980s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""KRU"")",Chrome 108.0.0.0,,,2022-12-16 12:29:14,2022-12-16 12:29:15,0.926s,PASSED
+"click(findTestObject(""Page_Google/input__btnK""))",Chrome 108.0.0.0,,,2022-12-16 12:29:15,2022-12-16 12:29:17,1.564s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏกาญจนบุรี"", false)",Chrome 108.0.0.0,,,2022-12-16 12:29:17,2022-12-16 12:29:18,1.425s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-16 12:29:18,2022-12-16 12:29:19,0.642s,PASSED
+,,,,,,,
+Test Cases/TC1103 Search by keyword,Chrome 108.0.0.0,,,2022-12-16 12:29:19,2022-12-16 12:29:25,6.701s,PASSED
+"openBrowser("""")",Chrome 108.0.0.0,,,2022-12-16 12:29:19,2022-12-16 12:29:20,1.074s,PASSED
+"navigateToUrl(""https://www.google.com"")",Chrome 108.0.0.0,,,2022-12-16 12:29:20,2022-12-16 12:29:21,1.027s,PASSED
+"setText(findTestObject(""Page_Google/input__q""), ""chandra"")",Chrome 108.0.0.0,,,2022-12-16 12:29:21,2022-12-16 12:29:22,0.657s,PASSED
+"click(findTestObject(""Page_Google/input__btnK""))",Chrome 108.0.0.0,,,2022-12-16 12:29:22,2022-12-16 12:29:24,2.354s,PASSED
+"verifyTextPresent(""มหาวิทยาลัยราชภัฏจันทรเกษม "", false)",Chrome 108.0.0.0,,,2022-12-16 12:29:24,2022-12-16 12:29:25,0.720s,PASSED
+closeBrowser(),Chrome 108.0.0.0,,,2022-12-16 12:29:25,2022-12-16 12:29:25,0.615s,PASSED
